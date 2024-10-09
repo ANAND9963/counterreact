@@ -7,7 +7,9 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+  name: 'ANAND'  # Use the name of your custom local pool
+  demands:
+  - Agent.OS -equals Windows_N
 
 steps:
 - task: NodeTool@0
