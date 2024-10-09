@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  name: 'ANAND'  # Use the name of your custom local pool
+  name: 'Default'  # Use the name of your custom local pool
   demands:
   - Agent.OS -equals Windows_N
 
